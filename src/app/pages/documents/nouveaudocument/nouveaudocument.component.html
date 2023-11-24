@@ -1,0 +1,102 @@
+<!-- <div class="col mb-3 m-3">
+   
+    <div class="col-md-12">
+        <div class="col-md-12 mb-3">
+            <h2>
+                <i class="fas fa-info-circle blue-color"></i> Informations du document
+            </h2>
+        </div>
+        <div class="col-md-12">
+            <form>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Titre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Sujet">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Auteur">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Dernier contributeur">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Description">
+                    </div>
+                    <div class="col">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="">Selectionner une categorie</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="col-md-12 mb-3 mt-3">
+        <h4>Chosir un fichier</h4>
+        <img src="assets/rabin.png" alt="/" class="rounded-circle" width="200px" height="200px">
+    </div>
+    <div class="col-md-12 text-end">
+        <button class="btn btn-danger m-2" (click)="cancel()">
+            <i class="fas fa-ban"></i>&nbsp;
+             Annuler
+        </button>
+        <button class="btn btn-primary m-2" (click)="save()">
+            <i class="fas fa-save"></i>&nbsp;
+            Enregistrer
+        </button>
+    </div>
+</div> -->
+
+<div class="container">
+    <div class="form">
+      <h1 class="title"><i class="fas fa-info-circle "></i>Ajouter un document</h1>
+      <form action="#">
+        <div class="form-group">
+          <input class="form-control" type="Text" placeholder="Titre" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="Text" placeholder="sujet" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="Text" placeholder="Auteur" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="Text" placeholder="Description" />
+        </div>
+        <div class="form-group">
+            <select class="form-control1">
+                <option value="">Selectionner une categorie</option>
+                <option value="">Ethique</option>
+                <option value="">Algebre</option>
+                <option value="">Architecture</option>
+                <option value="">merise</option>
+                <option value="">maths info</option>
+                <option value="">maths discrete</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="file" placeholder="Chosir un document" />
+        </div>
+        <div class="flex">
+            <button class="btn btn-danger m-2" (click)="cancel()">
+                <i class="fas fa-ban"></i>&nbsp;
+                 Annuler
+            </button>
+            <button class="btn btn-primary m-2" (click)="save()">
+                <i class="fas fa-save"></i>&nbsp;
+                Enregistrer
+            </button>
+        </div>
+      </form>
+    </div>
+  </div>

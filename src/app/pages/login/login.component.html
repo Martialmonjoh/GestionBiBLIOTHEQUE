@@ -1,0 +1,64 @@
+<!-- <div class="container my-container">
+    <div class="card justify-content-md-center">
+        <div class="card-header text-center">
+            <h3>Se connecter</h3>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger" ngIf="errorMessage">
+                {{errorMessage}}
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="E-mail" [ngModel] = "authenticationRequest.login">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Mot de passe" [ngModel] = "authenticationRequest.password">
+            </div>
+            <div class="mb-3 d-flex justify-content-between">
+                <a [routerLink]="['/s\'inscrire']" class="btn btn-link">S'inscrire</a>
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-check" (click)="login()"></i>&nbsp; Se connecter
+                </button>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="container">
+    <div class="forms">
+        <div class="form login">
+            <span class="title">connexion</span>
+
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your email" required>
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Enter your password" required>
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+
+               <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="logCheck">
+                        <label for="logCheck" class="text">se souvenir</label>
+                    </div>
+
+                    <a href="#" class="text">mot de passe oublié?</a>
+               </div> 
+               <div class="input-field button">
+                    <i class="fas fa-check"></i>
+                    <input type="button" value="se connecter">
+               </div>
+            </form>
+            
+            <div class="login-signup">
+                <span class="text">pas inscrit?
+                    <a href="" class="text signup-text" routerLink="/nscription">inscris toi!</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

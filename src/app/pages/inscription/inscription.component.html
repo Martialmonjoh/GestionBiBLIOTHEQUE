@@ -1,0 +1,72 @@
+
+<div class="container">
+    <div class="forms">
+        <div class="form login">
+            <span class="title">Inscription</span>
+
+            <form action="#">
+                <div class="input-field">
+                    <!-- Profil -->
+                    <select name="statut" class="form-control">
+                        <Option>Etudiant</Option>                    
+                        <Option>Bibliothecaire</Option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <select name="cycle" class="form-control">
+                        <Option>Licence professionnelle</Option>
+                        <Option>Master</Option>
+                        <Option>Ingenieur</Option>
+                        <Option>Management</Option>
+                    </select>
+                </div>
+                <!-- <div class="input-field"> -->
+                    <!-- Poste pour les membres de l'admin-->
+                    <!-- <select name="poste" class="form-control"> -->
+                        <!-- <Option>Directeur</Option> -->
+                        <!-- <Option>Responssable du cycle</Option> -->
+                        <!-- <Option>Secretaire</Option> -->
+                        <!-- <Option>Autre</Option> -->
+                    <!-- </select> -->
+                <!-- </div> -->
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your Matricule">
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your name" >
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your surname" >
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your email" required>
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Enter your password" required>
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Enter your Confirm password" required>
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+
+               <div class="input-field button">
+                    <i class="fas fa-check"></i>
+                    <input type="button" value="s'inscrire">
+               </div>
+            </form>
+            
+            <div class="login-signup">
+                <span class="text">
+                    <a href="#" class="text signup-text" routerLink="/login">Connecte toi!</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

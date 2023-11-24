@@ -1,0 +1,20 @@
+<div class="row d-flex">
+    <div class="col-md-4">
+        <button type="button" class="btn btn-warning flex-fil" *ngIf="isUploaderVisible">
+            <i class="fas fa-cloud-upload-alt"></i>
+            Uploader
+        </button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-success flex-fil" *ngIf="isTelechargerVisible">
+            <i class="fas fa-cloud-download-alt"></i>
+            Telecharger
+        </button>
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-primary flex-fil" (click)="bouttonNouveauClick()" *ngIf="isNouveauVisible">
+            <i class="fas fa-plus"></i>
+            Ajouter
+        </button>
+    </div>
+</div>
